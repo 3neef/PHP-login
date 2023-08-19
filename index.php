@@ -17,15 +17,15 @@ $_SESSION["token-expire"] = time() + 3600;
       <div class="form-group">
         <label class="col-form-label pt-0"><span style="color:red;">*</span>
           First Name</label>
-        <input class="form-control" id="first_name" name="first_name" type="text" required="">
+        <input class="form-control" id="first_name" name="first_name" type="text" required>
       </div>
       <div class="form-group" style="margin-top: 15px;">
         <label class="col-form-label pt-0"><span style="color:red;">*</span>
           Last Name</label>
-        <input class="form-control" id="last_name" name="last_name" type="text" required="">
+        <input class="form-control" id="last_name" name="last_name" type="text" required>
       </div>
       <div class="form-group" style="margin-top: 15px;">
-        <input type="file" id="fileToUpload" name="fileToUpload" accept="image/*" hidden>
+        <input type="file" id="fileToUpload" name="fileToUpload" accept="image/*" hidden required>
         <a class="select-image">
           <div class="img-area" data-img="">
             <i class='bx bxs-cloud-upload icon'></i>
